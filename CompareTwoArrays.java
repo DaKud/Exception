@@ -12,7 +12,7 @@ public class CompareTwoArrays {
         int[] firstArray = getFilledArray(10);
         int[] secondArray = getFilledArray(3);
 
-        int[] divArrays = divArrays(firstArray, secondArray);
+        divArrays(firstArray, secondArray);
     }
 
     public static int[] divArrays(int[] firstArray, int[] secondArray) {
